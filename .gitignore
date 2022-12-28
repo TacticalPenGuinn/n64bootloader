@@ -1,0 +1,31 @@
+## Build files
+*.a
+build/
+
+
+## OSX junk
+.DS_Store
+.Trashes
+._*
+
+## Temporary files
+*.tmp
+*.swp
+*~
+
+*.v64
+*.z64
+*.elf
+*.bin
+*.o
+*.dfs
+*.sfs
+mydisk
+vmlinux.*
+util/size2bin
+*.gz
+
+node_modules
+
+## Editors
+.vscode/settings.json
