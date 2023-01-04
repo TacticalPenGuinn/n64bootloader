@@ -16,6 +16,7 @@ N64_TOOLFLAGS = --header $(N64_HEADERPATH) --title $(N64_ROM_TITLE) \
 		-s 1M $(vmlinux) \
 		-s $$(util/size2bin $(vmlinux))B $(mydisk)
 
+
 all: vmlinux.size.bin disk.size.bin $(PROG_NAME)$(ROM_EXTENSION).gz
 .PHONY: all
 
