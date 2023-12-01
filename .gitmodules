@@ -8,3 +8,6 @@
 [submodule "linux"]
 	path = linux
 	url = https://github.com/TacticalPenGuinn/linux.git
+[submodule "joyterm"]
+	path = joyterm
+	url = https://github.com/clbr/joyterm.git
