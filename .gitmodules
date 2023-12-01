@@ -2,3 +2,6 @@
 	path = libdragon
 	url = https://github.com/DragonMinded/libdragon
 	branch = trunk
+[submodule "busybox"]
+	path = busybox
+	url = https://github.com/mirror/busybox.git
